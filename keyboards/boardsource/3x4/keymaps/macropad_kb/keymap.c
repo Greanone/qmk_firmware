@@ -12,12 +12,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_EQL, KC_CUT, KC_COPY, KC_PSTE,
     DM_REC1, DM_REC2, DM_PLY1, DM_PLY2,
     DM_RSTP, DF(2), KC_AGIN, KC_UNDO
-  )
+  ),
   [2] = LAYOUT(
     KC_PENT, KC_7, KC_8, KC_9,
     DF(3), KC_4, KC_5, KC_6,
     KC_0, KC_1, KC_2, KC_3
-  )
+  ),
   [3] = LAYOUT(
     KC_VOLD, KC_VOLU, KC_MUTE, _,
     _, _, _, _,
